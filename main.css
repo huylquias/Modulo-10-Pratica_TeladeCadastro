@@ -1,0 +1,103 @@
+@keyframes animatedBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url('img/background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 200% 100% 50%;
+    animation: animatedBackground 200s linear infinite;
+}
+
+.cadastro h2 {
+    font-size: 44px; 
+    text-align: center;
+    color:#ec3a3a;
+    font-family: "Pacifico", cursive;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.cadastro {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+}
+
+.form-campo { 
+    margin-bottom: 12px;
+}
+
+.form-campo label { 
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input, 
+.form-campo textarea,
+.form-campo select {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    border: 1px solid #0a0a0a;
+    border-radius: 4px;
+    
+}
+
+form { 
+    background-color: #ffffff;
+    padding: 42px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 21px rgba(250, 59, 25, 0.63);
+}
+
+.btn-container {
+        display: flex;
+        justify-content: center;
+    }
+
+.btn{
+
+font-family: Lato;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #41a800;
+padding: 10px 30px;
+border: none;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+border-radius: 4px;
+transition : 1142ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 1100ms;
+padding: 10px 43px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #41a800;
+border: solid 2px #41a800;
+}
+
+.erro {
+    color: red;
+    font-size: 11px; 
+    font-style: italic;
+    text-align: center;
+}
