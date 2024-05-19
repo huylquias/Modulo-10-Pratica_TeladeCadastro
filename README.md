@@ -7,6 +7,7 @@
 
 - **🔤 Campos de Entrada**: Nome completo, email, telefone, CPF, endereço completo e CEP.
 - **✅ Validação de Dados**: Utiliza jQuery para validação de campos e mascaramento de dados.
+- **🌆 Background em movimento**: Utiliza um background animado feito no css.
 - **🔒 Envio Seguro**: Estrutura para enviar dados de forma segura.
 
 ## 📂 Estrutura do Projeto
